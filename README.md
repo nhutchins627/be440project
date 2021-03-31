@@ -14,7 +14,7 @@ This repo requires the Seurat library for R (4.0.4) in order to analyze scRNA-se
 
 Installation of the Seurat library can be performed in R as follows:
 ```
-install.packages(Seurat)
+install.packages('Seurat')
 ```
 
 ## Usage
