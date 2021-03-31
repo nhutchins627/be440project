@@ -2,7 +2,10 @@ This code is used to create a dimension reduction plot of the axolotl injury rec
 
 ## Background
 
-The axolotl is a highly regenerative vertebrate with a somewhat unique ability to regenerate complex tissues upon losing them. Studies have sought to 
+The axolotl is a highly regenerative vertebrate with a somewhat unique ability to regenerate complex tissues upon losing them. Studies have sought to study how this regeneration occurs and characterize the cell types in case it may provide insights for regenerative medicine. We hope to characterize some of the observed heterogeinity in axolotls and link this to known genes involved in diseases of cell proliferation (i.e. cancer) and tissue formation. This will provide insights into how regeneration is conferred and regulated and insights that can be provided from new single-cell methods (i.e. MARS) can more thoroughly explore and characterize the data. Our aims are as follows:
+
+Aim 1. Identify rare populations of cells at different time points during regeneration. 
+Aim 2. Dissect the genetic drivers of cell state transition at different time points during regeneration.
 
 ## Data
 
