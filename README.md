@@ -1,8 +1,21 @@
 This code is used to create a dimension reduction plot of the axolotl injury recovery data to identify novel cell type populations. 
 
+## Background
+
+The axolotl is a highly regenerative vertebrate with a somewhat unique ability to regenerate complex tissues upon losing them. 
+
 ## Data
 
 The data used in this analysis is available in the Data folder of this repository (repo). The data used was a single-cell RNA-seq (scRNAseq) set available from the publication DOI: 10.1126/science.aaq0681 and the Genome Ascenion Viewer at GSE106269. The gene matrix of counts of genes by cell ID is available in .csv form. There is currently only one file the aaq0681_TableS5.csv which is a matrix of counts of the gene expression by cell ID (rows) and gene name (column) of the scRNAseq dataset available for the uninjured axolotl upper arm connective tissue (Single-cell RNA-seq data set (10X Genomics) of 2,375 cells of the axolotl uninjured adult upper arm CT).
+
+## Installation
+
+This repo requires the Seurat library for R (4.0.4) in order to analyze scRNA-seq data. In order to install R , one can follow the instructions available on the R website: https://www.r-project.org/
+
+Installation of the Seurat library can be performed in R as follows:
+```
+install.packages(Seurat)
+```
 
 ## References
 
