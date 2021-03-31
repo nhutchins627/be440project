@@ -2,7 +2,7 @@ This code is used to create a dimension reduction plot of the axolotl injury rec
 
 ## Background
 
-The axolotl is a highly regenerative vertebrate with a somewhat unique ability to regenerate complex tissues upon losing them. 
+The axolotl is a highly regenerative vertebrate with a somewhat unique ability to regenerate complex tissues upon losing them. Studies have sought to 
 
 ## Data
 
@@ -16,6 +16,16 @@ Installation of the Seurat library can be performed in R as follows:
 ```
 install.packages(Seurat)
 ```
+
+## Usage
+
+The analysis code assumes the same structure as the current repo is used. One can run the following command directly from the be440project directory to analyze the data:
+
+```
+Rscript Script/main.R
+```
+
+The output is an Rplots.pdf file containing a clustering analysis plotted in a UMAP plot and feature plots for four key tissue regulation genes. 
 
 ## References
 
