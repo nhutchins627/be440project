@@ -29,7 +29,7 @@ The analysis code assumes the same structure as the current repo is used. One ca
 Rscript Script/main.R
 ```
 
-The output is an Rplots.pdf file containing a clustering analysis plotted in a UMAP plot and feature plots for four key tissue regulation genes. 
+The output is an Rplots.pdf file in the Figures directory containing a clustering analysis (Shared nearest neighbor) plotted in a UMAP plot and feature plots for four key tissue regulation genes. 
 
 ## References
 
